@@ -10,9 +10,8 @@
   }
   .text-overlay {
     position: absolute;
-    color: #FFF;
+    color:#FFF;;
   }
-  
 .text-overlay.top {
     top: 40%;
     left: 50%;
@@ -91,7 +90,143 @@
       max-width: 30%; /* Adjust the size of the small image */
       height: auto;
   }
-  .greatings{
+  /* Styling for the text overlay */
+.text-overlay.second {
     position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 40%;
+}
 
-  }
+/* Styling for the headings and paragraphs */
+.greetings {
+    font-size: 50px; /* Adjust as needed */
+    margin-bottom: 5px;
+    color: #FFF;
+}
+
+.greeting.details {
+    font-size: 18px; /* Adjust as needed */
+    margin-top: 0;
+    color:rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    word-wrap: break-word; 
+}
+.btn-primary{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.about-party{
+  padding: 130px;
+  border-radius: 10px;
+  background: #f7f0eb;
+  margin: 130px 0 ;
+  width: 1100px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.text-primary {
+  color: #F00;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 175% */
+  text-transform: capitalize;
+  margin-left: 14%;
+}
+
+.section-place {
+  color: #070211;
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin-left: 14%;
+}
+.btn-primary.two{
+  display: inline-flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: #F00;
+  margin-left: 37%;
+}
+.sell-container {
+    padding: 60px;
+    background: #FFF;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.About-sell {
+  padding: 24px;
+  flex: 1;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.offer{
+  text-align: center;
+  color: #F00;
+}
+.offer-duration{
+  text-align: center;
+}
+
+.year {
+  color: #f00;
+  font-family: Inter;
+  /* margin: 0; */
+  text-align: center;
+  margin-left: 4%;
+  padding: 30px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 0%;
+  font-size: 36px;
+  line-height: 20px;
+}
+.offer-details{
+  text-align: center;
+  margin-top: 0%;
+}
+
+.circle-image {
+  width: 360px;
+  height: 360px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 15px solid #f00;
+  overflow: hidden;
+}
+
+.image3,
+.image4 {
+  flex-shrink: 0;
+}
+
+.image4 {
+  width: 80px;
+  height: 80px;
+}
